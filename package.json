@@ -1,0 +1,25 @@
+{
+  "dependencies": {
+    "aws-sdk": "^2.1066.0",
+    "bcrypt": "^5.0.1",
+    "cors": "^2.8.5",
+    "dotenv": "^14.3.2",
+    "express": "^4.17.2",
+    "jsonwebtoken": "^8.5.1",
+    "knex": "^1.0.1",
+    "nodemon": "^2.0.15",
+    "pg": "^8.7.1"
+  },
+  "name": "src",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon ./src/index.js",
+    "start": "./src/index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": ""
+}
